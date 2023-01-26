@@ -14,9 +14,7 @@ const Main = () => {
       {/* Card 1 */}
       <div className="card active__card">
         <div className="profile">
-          <div className="profile__img">
-            <img src={img} alt="" />
-          </div>
+            <img className="profile__img" src={img} alt="" />
           <div className="profile__details">
             <div className="profile__heading">
               <p className="card__header">Photosnap</p>
@@ -42,7 +40,7 @@ const Main = () => {
       {/* Card 2 */}
       <div className="card active__card">
         <div className="profile">
-         < img src={img1} alt=""/> 
+         < img className="profile__img" src={img1} alt=""/> 
           <div className="profile__details">
             <div className="profile__heading">
               <p className="card__header">Manage</p>
@@ -67,7 +65,7 @@ const Main = () => {
       {/* Card 3 */}
       <div className="card">
         <div className="profile">
-          <img src={img2} alt="" />
+          <img className="profile__img" src={img2} alt="" />
           <div className="profile__details">
             <div className="profile__heading">
               <p className="card__header">Account</p>
@@ -92,7 +90,7 @@ const Main = () => {
       {/* Card 4 */}
       <div className="card">
         <div className="profile">
-          <img src={img3} alt="" />
+          <img className="profile__img" src={img3} alt="" />
           <div className="profile__details">
             <div className="profile__heading">
               <p className="card__header">MyHome</p>
@@ -116,7 +114,7 @@ const Main = () => {
       {/* Card 5 */}
       <div className="card">
         <div className="profile">
-          <img src={img4} alt ="" />
+          <img className="profile__img" src={img4} alt ="" />
           <div className="profile__details">
             <div className="profile__heading">
               <p className="card__header">Loop studios</p>
@@ -140,7 +138,7 @@ const Main = () => {
       {/* Card 6 */}
       <div className="card">
         <div className="profile">
-          <img src ={img5} alt=""/>
+          <img className="profile__img" src ={img5} alt=""/>
           <div className="profile__details">
             <div className="profile__heading">
               <p className="card__header">facelt</p>
@@ -164,7 +162,7 @@ const Main = () => {
       {/* Card 7 */}
       <div className="card">
         <div className="profile">
-         < img src={img6} alt=""/>
+         < img className="profile__img" src={img6} alt=""/>
           <div className="profile__details">
             <div className="profile__heading">
               <p className="card__header">shortly</p>
@@ -188,7 +186,7 @@ const Main = () => {
  {/* Card 8 */}
  <div className="card">
         <div className="profile">
-          <img src={img7} alt=""/>
+          <img className="profile__img" src={img7} alt=""/>
           <div className="profile__details">
             <div className="profile__heading">
               <p className="card__header">Insure</p>
@@ -212,7 +210,7 @@ const Main = () => {
       {/* Card 9 */}
       <div className="card">
         <div className="profile">
-          <img src={img8} alt=""/>
+          <img className="profile__img" src={img8} alt=""/>
           <div className="profile__details">
             <div className="profile__heading">
               <p className="card__header">Eyecam Co.</p>
@@ -236,7 +234,7 @@ const Main = () => {
       {/* Card 10 */}
       <div className="card">
         <div className="profile">
-          <img src={img9} alt=""/>
+          <img className="profile__img" src={img9} alt=""/>
           <div className="profile__details">
             <div className="profile__heading">
               <p className="card__header">The Air Filter company</p>

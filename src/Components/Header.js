@@ -2,11 +2,10 @@ const Header = () => {
   return (
     <div className="header">
       <div className="navbar">
-        <span>
-          <a href="#">HOME</a>
-          <a href="#">ABOUT</a>
-          <a href="#">CONTACT</a>
-        </span>
+          <a href="#" className="nav__link">HOME</a>
+          <a href="#" className="nav__link" >ABOUT</a>
+          <a href="#" className="nav__link">CONTACT</a>
+        
       </div>
     </div>
   )

@@ -7,7 +7,6 @@
 body{
   font-family: sans-serif;
   background: #def1f0;
-  
 }
 .active__card{
   border-left: 4px solid #025f5a;
@@ -22,21 +21,25 @@ body{
   background-position: center center;
 }
 .navbar{
-  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
   padding-right: 200px;
   padding-left: 170px;
   padding-top: 60px;
-/* background-color: red; */
 }
-span{
-  display: flex;
-  gap:50px;
-}
- a{
-  color:black;
-  text-decoration: none;
-  }
 
+.nav__link{
+  color: #0b2221;
+  text-decoration: none;
+  font-weight: 400;
+  transition: .3s;
+}
+.nav__link:hover{
+  color: #025f5a;
+  font-weight: 800;
+}
 .container{
   width: 80%;
  margin: 1.5rem auto;
@@ -57,12 +60,7 @@ span{
   justify-content: center;
   align-items: center;
 }
-.profile__img{
-  width: 5rem;
-  height: 5rem;
-  background: #000;
-  border-radius: 50%;
-}
+
 .badges{
   color: #fff;
   font-weight: 800;
@@ -121,4 +119,56 @@ span{
   font-size: .85rem;
   cursor: pointer;
   border-radius: .2rem;
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .card{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2.5rem;
+   margin-bottom: 4rem;
+  }
+  .categories{
+    margin-top: 1rem;
+    justify-content: flex-start;
+   align-items: center;
+   flex-wrap: wrap;
+  }
+  .profile{
+    position: relative;
+  }
+ .profile__img{
+  position: absolute;
+  top: -50%;
+  left: -10%;
+  right: 0;
+  max-width: 50px;
+  max-height: 50px;
+ }
+ .profile__details{
+  margin-top: .75rem;
+ }
+}
+@media screen and (min-width: 767px) {
+  .card{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   margin-top: 2.5rem;
+   margin-bottom: 4rem;
+  }
+  .categories{
+    margin-top: 1rem;
+    justify-content: flex-start;
+   align-items: center;
+   flex-wrap: wrap;
+  }
+ 
+ .profile__details{
+  margin-top: .75rem;
+ } 
 }
